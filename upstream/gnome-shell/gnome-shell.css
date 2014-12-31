@@ -21,7 +21,7 @@
 
 /* default text style */
 stage {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: cantarell, sans-serif;
     font-size: 10pt;
     color: #eee;
 }
@@ -1442,9 +1442,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .calendar {
-    padding: .4em 1.75em .8em 1.75em;
-    spacing-rows: 4px;
-    spacing-columns: 4px;
+    padding: .4em 1.75em 2.8em 1.75em;
 }
 
 .calendar-month-label {
@@ -1666,8 +1664,7 @@ StScrollBar StButton#hhandle:active {
 
 /* Message Tray */
 #message-tray {
-    background: #333 url(noise-texture.png);
-    background-repeat: repeat;
+    background-color: #333;
     transition-duration: 100ms;
     height: 72px;
 }
@@ -2621,8 +2618,8 @@ StScrollBar StButton#hhandle:active {
 /* Login Dialog */
 
 .framed-user-icon {
-    border: 1px solid #8b8b8b;
-    border-radius: 2px;
+    border: 0px solid #555;
+    border-radius: 0px;
     background-size: contain;
 }
 
@@ -2857,7 +2854,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 #lockDialogGroup {
-    background: #333 url(noise-texture.png);
+    background: #222222 url('lock-background.png');
     background-repeat: repeat;
 }
 
@@ -2971,7 +2968,9 @@ StScrollBar StButton#hhandle:active {
     -arrow-rise: 0px;
 }
 
-/* dashtodock extension */
+/*
+** DASH-TO-DOCK EXTENSION
+*/
 
 #dashtodockBox:ltr {
   padding-right:1px;

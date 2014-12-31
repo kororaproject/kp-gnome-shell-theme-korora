@@ -1,7 +1,7 @@
 %global theme_name    Korora
 
 Name:           gnome-shell-theme-korora
-Version:        0.1
+Version:        0.2
 Release:        1%{?dist}
 Summary:        Gnome shell theme for Korora
 
@@ -30,6 +30,8 @@ rm -rf %{buildroot}
 %{_datadir}/themes/%{theme_name}/gnome-shell/
 
 %changelog
+* Wed Dec 31 2014 Ian Firns <firnsy@kororaproject.org> - 0.2-1
+- Tweaks to font and calendar
+
 * Wed Dec 17 2014 Ian Firns <firnsy@kororaproject.org> - 0.1-1
 - Initial spec.
-
