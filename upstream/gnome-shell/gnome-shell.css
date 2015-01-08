@@ -860,7 +860,7 @@ StScrollBar StButton#hhandle:active {
     border-radius: 2px 0 0 2px;
     background-image: none;
     background-gradient-direction: none;
-    background-color: transparent;
+    background-color: #313736;
     padding: 9px 7px 9px 9px;
 }
 
