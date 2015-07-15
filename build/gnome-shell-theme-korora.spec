@@ -1,7 +1,7 @@
 %global theme_name    Korora
 
 Name:           gnome-shell-theme-korora
-Version:        0.4
+Version:        0.5
 Release:        1%{?dist}
 Summary:        Gnome shell theme for Korora
 
@@ -30,6 +30,10 @@ rm -rf %{buildroot}
 %{_datadir}/themes/%{theme_name}/gnome-shell/
 
 %changelog
+* Mon Jul 16 2015 Ian Firns <firnsy@kororaproject.org> - 0.5-1
+- Don't use symbolic icons for panel app-icons until themes have
+  better coverage.
+
 * Mon Jul  6 2015 Ian Firns <firnsy@kororaproject.org> - 0.4-1
 - Updated for latest dash-to-dock
 
